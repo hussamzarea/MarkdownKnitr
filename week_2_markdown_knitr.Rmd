@@ -1,0 +1,52 @@
+---
+title: "Markdown & knitr"
+author: "Hussam Zarea"
+date: "July 9, 2017"
+output:
+
+  html_document: default
+
+---
+#Markdown & knitr Assignment
+
+## Set Global Options
+```{r setoptions, echo = TRUE, cache= TRUE}
+
+```
+
+## load libraries
+```{r}
+library(ggplot2)
+library(plyr)
+```
+
+##Load and Read The Data
+```{r echo = TRUE}
+setwd("C:/Users/hussamzarea/Desktop/Coursera/markdown/Week2")
+fullData <- read.table("activity.csv", header=T, sep=',', na.strings="?" )
+```
+
+
+## Process the Data and 
+
+
+## Assign Current Date
+```{r computetime}
+time <- format(Sys.time(), "%a %b %d %X %Y")
+```
+
+## Data Summary
+```{r  echo = TRUE}
+## Summary of fullData
+summary(fullData)
+```
+
+
+```{r scatterplot}
+
+```
+
+
+
+
+
