@@ -7,11 +7,11 @@ output:
   html_document: default
 
 ---
-# Markdown & knitr Assignment
+#Markdown & knitr Assignment
 
 ## Set Global Options
 ```{r setoptions, echo = TRUE, cache= TRUE}
-
+opts_chunk$set(echo = TRUE, results = "hide")
 ```
 
 ## load libraries
