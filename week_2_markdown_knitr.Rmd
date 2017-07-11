@@ -27,7 +27,7 @@ fullData <- read.table("activity.csv", header=T, sep=',', na.strings="?" )
 ```
 
 
-## Process the Data and 
+## Process the Data
 
 
 ## Assign Current Date
