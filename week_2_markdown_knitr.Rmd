@@ -1,9 +1,10 @@
 ---
 title: "Markdown & knitr"
-output:
-  html_document: default
-  word_document: default
-date: "July 9, 2017"
+output: html_document
+#github_document
+ 
+
+date: "July 12, 2017"
 ---
 
 #Markdown & knitr Assignment
@@ -23,12 +24,12 @@ opts_chunk$set(echo=TRUE,results="show",cache=TRUE)
 
 ### Set Directory
 ```{r}
-setwd("C:/Users/hzarea/Desktop/Coursera/markdown/Week2")
+setwd("C:/Users/hussamzarea/Desktop/Coursera/markdown/Week2")
 ```
 
 
 ### 1. Code for reading in the dataset and/or processing the data
-Create a data set from the activity.csv with “,” separated columns and include the a header.
+Create a data set from the activity.csv with "," separated columns and include the a header.
 ```{r}
 activityData <- read.table("activity.csv", 
                            header=TRUE, 
